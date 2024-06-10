@@ -1,11 +1,6 @@
 # Brain Tumor Segmentation
 
-This project tackles the critical challenge of automatic brain tumor segmentation from MRI images. It is containerized using Docker for easy deployment and scalability.
-
-## Prerequisites
-
-- Docker installed on your system.
-- Git installed on your system.
+This repository contains a Flask application for brain tumor segmentation using a pre-trained deep learning model. The application is containerized using Docker for easy deployment and scalability.
 
 ## Getting Started
 
