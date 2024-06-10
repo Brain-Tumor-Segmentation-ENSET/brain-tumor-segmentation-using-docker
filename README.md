@@ -1,4 +1,4 @@
-# Brain Tumor Segmentation Project
+# Brain Tumor Segmentation
 
 This project tackles the critical challenge of automatic brain tumor segmentation from MRI images. It is containerized using Docker for easy deployment and scalability.
 
@@ -29,7 +29,15 @@ Run the Docker container with the following command:
 docker run -p 5005:5005 brain-tumor-segmentation
 
 ```
-Use http://localhost:5005 to access the Flask application
+### Test:
+
+Use the following command to upload an image for testing:
+```bash
+curl -X POST -F "image=@path_to_your_image.jpg" http://localhost:5005/upload
+
+```
+
+or you can create a frontend application to interact with the Flask API for uploading images. 
 
 ## Contributing
 Contributions are welcome! Fork this repository and submit pull requests for any improvements or bug fixes.
