@@ -8,7 +8,7 @@ This repository contains a Flask application for brain tumor segmentation using 
 
 Clone this repository to your local machine using:
 ```bash
-git clone https://github.com/AhmedHoussamBouzine/brain-tumor-segmentation-using-docker.git
+git clone https://github.com/Brain-Tumor-Segmentation-ENSET/brain-tumor-segmentation-using-docker.git
 ```
 ### Build the Docker Image
 
